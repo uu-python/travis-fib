@@ -9,7 +9,10 @@ def fib(n):
     ----------
     n : integer
       The minimum threshold for the desired Fibonacci number.    
-    output : integer
+
+    Returns
+    -------
+    b : integer
       The first Fibonacci number greater than the input, `n`.
 
     Examples
