@@ -16,6 +16,6 @@ install:
   - pip install numpy
   - pip install pytest
 
-# After a successful installation run the tests
-after_success:
+# Run the tests
+script:
   - py.test
